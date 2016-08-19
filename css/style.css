@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+body {
+  background-color: #E91E63;
+  font-family: 'Roboto', sans-serif;
+  transition: background 0.75s ease-in;
+}
+
+.card {
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  margin-top: 15%;
+  margin-bottom: 5%;
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding: 36px;
+  background-color: white;
+}
+
+p#quote {
+  font-size: 180%;
+  font-weight: bold;
+}
+
+#author {
+  text-align: right;
+}
+
+.card-action {
+  padding: 26px;
+}
+
+address {
+  margin-top: 10px;
+  color: white;
+}
+
+a, a:hover {
+  color: inherit;
+}
